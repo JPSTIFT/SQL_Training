@@ -1,2 +1,3 @@
 # SQL_Training
-SQL Repo
+I set out to group variations in descriptions from a bank statement. Using Chat GPT 3.5 helped me develop the statement and speed up the process of initial data cleaning. The outcome enabled me to see specific trends via looker studio - i.e., did changing supermarket lower overall grocery costs? Did changing petrol station location lower fuel costs.
+I then experimented with adding pyhton code that allowed me to query the data using prompts vs running SQL queries. I got held up on a simple issue - adding the data to workspace in GCP which I finally solved using the workspace itself vs integrating the file into the pythoin code.
