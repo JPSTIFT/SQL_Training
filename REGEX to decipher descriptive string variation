@@ -1,0 +1,5 @@
+SELECT
+  description,
+  REGEXP_REPLACE(REGEXP_REPLACE(REGEXP_REPLACE(description, r'\s*(\d{1,2}(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\d{0,4}(\d{2}:\d{2})?(\d{2}:\d{2})?)', ''), r':\d{2}', ''), r'^\s+', '') AS modified_string, credit, debit, subcategory, date, balance, category
+FROM
+  `useful-loop-180502.jpstift_personal_training.260923_expenses`;
